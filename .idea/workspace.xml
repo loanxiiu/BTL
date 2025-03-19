@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0d4013f-149f-49b0-8cbf-0ac00ef30e33" name="Changes" comment="add new" />
+    <list default="true" id="a0d4013f-149f-49b0-8cbf-0ac00ef30e33" name="Changes" comment="add new">
+      <change afterPath="$PROJECT_DIR$/controller/ThongKeController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/dao/ThongKeDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/SanPhamController.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/SanPhamController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dao/connect/ITSHOP.db" beforeDir="false" afterPath="$PROJECT_DIR$/model/dao/connect/ITSHOP.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/quanly/ThongKe.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/quanly/ThongKe.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,60 +54,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ChiTietDonHang.executor": "Run",
-    "Python.ChiTietDonHangDAO.executor": "Run",
-    "Python.DangNhap (1).executor": "Run",
-    "Python.DangNhap.executor": "Run",
-    "Python.DanhMuc.executor": "Run",
-    "Python.Dashboard.executor": "Run",
-    "Python.DatabaseConnect.executor": "Run",
-    "Python.DonHang.executor": "Run",
-    "Python.FaceController.executor": "Run",
-    "Python.Header.executor": "Run",
-    "Python.Home.executor": "Run",
-    "Python.KhachHang.executor": "Run",
-    "Python.KhachHangDAO.executor": "Run",
-    "Python.NhanVien.executor": "Run",
-    "Python.NhanVienController.executor": "Run",
-    "Python.NhanVienDAO.executor": "Run",
-    "Python.Notifications.executor": "Run",
-    "Python.Order.executor": "Run",
-    "Python.Orders.executor": "Run",
-    "Python.Product (1).executor": "Run",
-    "Python.SanPham.executor": "Run",
-    "Python.SanPhamController (1).executor": "Run",
-    "Python.SanPhamController.executor": "Run",
-    "Python.Setting.executor": "Run",
-    "Python.Sidebar.executor": "Run",
-    "Python.TaiKhoanDAO.executor": "Run",
-    "Python.ThongKe.executor": "Run",
-    "Python.ThongTin.executor": "Run",
-    "Python.TrangChu.executor": "Run",
-    "Python.User.executor": "Run",
-    "Python.UserController.executor": "Run",
-    "Python.UserDAO.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.fix.executor": "Run",
-    "Python.product.executor": "Run",
-    "Python.session.executor": "Run",
-    "Python.test2.executor": "Run",
-    "Python.test3.executor": "Run",
-    "Python.test4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Users/ploan/python_EAUT/BTL",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ChiTietDonHang.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ChiTietDonHangDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DangNhap (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DangNhap.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DanhMuc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dashboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DatabaseConnect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DonHang.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceController.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Header.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Home.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KhachHang.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KhachHangDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NhanVien.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NhanVienController.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NhanVienDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Notifications.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Order.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Orders.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Product (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.SanPham.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SanPhamController (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.SanPhamController.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Setting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sidebar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TaiKhoanDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ThongKe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ThongTin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TrangChu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.User.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UserController.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UserDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.session.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Users/ploan/python_EAUT/BTL&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Users\ploan\python_EAUT\BTL\view\quanly" />
@@ -115,7 +122,7 @@
       <recent name="E:\Users\ploan\python_EAUT\BTL\BTL\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DangNhap (1)">
+  <component name="RunManager" selected="Python.ThongKe">
     <configuration name="DangNhap (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BTL" />
       <option name="ENV_FILES" value="" />
@@ -131,6 +138,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/view/chung/DangNhap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DatabaseConnect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BTL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model/dao/connect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/dao/connect/DatabaseConnect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,36 +238,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TrangChu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BTL" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/view/chung" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/view/chung/TrangChu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ThongKe" />
+        <item itemvalue="Python.DatabaseConnect" />
         <item itemvalue="Python.DangNhap (1)" />
         <item itemvalue="Python.SanPhamController" />
         <item itemvalue="Python.DonHang" />
-        <item itemvalue="Python.ThongKe" />
-        <item itemvalue="Python.TrangChu" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +288,7 @@
       <workItem from="1742085964654" duration="11935000" />
       <workItem from="1742173224280" duration="12279000" />
       <workItem from="1742203289527" duration="3330000" />
-      <workItem from="1742258645806" duration="11989000" />
+      <workItem from="1742258645806" duration="20313000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <option name="closed" value="true" />
@@ -371,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742305475187</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add new">
+      <option name="closed" value="true" />
+      <created>1742308279468</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742308279468</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,52 +450,52 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>49</line>
+          <line>48</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>38</line>
+          <line>37</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>47</line>
+          <line>46</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>46</line>
+          <line>45</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>45</line>
+          <line>44</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>50</line>
+          <line>49</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>44</line>
+          <line>43</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>42</line>
+          <line>41</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -495,42 +510,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>93</line>
+          <line>90</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>90</line>
+          <line>87</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>98</line>
+          <line>95</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>99</line>
+          <line>96</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>102</line>
+          <line>99</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>103</line>
+          <line>100</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/SanPhamController.py</url>
-          <line>104</line>
+          <line>101</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -550,7 +565,7 @@
     <SUITE FILE_PATH="coverage/BTL$DanhMuc.coverage" NAME="DanhMuc Coverage Results" MODIFIED="1741408465094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view" />
     <SUITE FILE_PATH="coverage/BTL$SanPhamController__1_.coverage" NAME="SanPhamController (1) Coverage Results" MODIFIED="1741230656465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller" />
     <SUITE FILE_PATH="coverage/BTL$DangNhap.coverage" NAME="DangNhap Coverage Results" MODIFIED="1742037113112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view" />
-    <SUITE FILE_PATH="coverage/BTL$DangNhap__1_.coverage" NAME="DangNhap (1) Coverage Results" MODIFIED="1742307478342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view/chung" />
+    <SUITE FILE_PATH="coverage/BTL$DangNhap__1_.coverage" NAME="DangNhap (1) Coverage Results" MODIFIED="1742308798924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view/chung" />
     <SUITE FILE_PATH="coverage/BTL$Setting.coverage" NAME="Setting Coverage Results" MODIFIED="1741120126578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/a" />
     <SUITE FILE_PATH="coverage/BTL$product.coverage" NAME="product Coverage Results" MODIFIED="1740708922702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/BTL$fix.coverage" NAME="fix Coverage Results" MODIFIED="1741195002338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/a" />
@@ -568,14 +583,14 @@
     <SUITE FILE_PATH="coverage/BTL$Orders.coverage" NAME="Orders Coverage Results" MODIFIED="1741120058713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/a" />
     <SUITE FILE_PATH="coverage/BTL$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1741322450614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/a" />
     <SUITE FILE_PATH="coverage/BTL$SanPhamController.coverage" NAME="SanPhamController Coverage Results" MODIFIED="1742306922887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller" />
-    <SUITE FILE_PATH="coverage/BTL$DatabaseConnect.coverage" NAME="DatabaseConnect Coverage Results" MODIFIED="1741406799049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/dao/connect" />
     <SUITE FILE_PATH="coverage/BTL$FaceController.coverage" NAME="FaceController Coverage Results" MODIFIED="1742036298884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller" />
+    <SUITE FILE_PATH="coverage/BTL$DatabaseConnect.coverage" NAME="DatabaseConnect Coverage Results" MODIFIED="1742311005506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model/dao/connect" />
     <SUITE FILE_PATH="coverage/BTL$session.coverage" NAME="session Coverage Results" MODIFIED="1742175674726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/BTL$Order.coverage" NAME="Order Coverage Results" MODIFIED="1740708354698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/BTL$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1741321265019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python311/Lib/tkinter" />
     <SUITE FILE_PATH="coverage/BTL$NhanVien.coverage" NAME="NhanVien Coverage Results" MODIFIED="1741188456904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view" />
     <SUITE FILE_PATH="coverage/BTL$UserController.coverage" NAME="UserController Coverage Results" MODIFIED="1740799638780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller" />
-    <SUITE FILE_PATH="coverage/BTL$ThongKe.coverage" NAME="ThongKe Coverage Results" MODIFIED="1742201948484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view/quanly" />
+    <SUITE FILE_PATH="coverage/BTL$ThongKe.coverage" NAME="ThongKe Coverage Results" MODIFIED="1742316025058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view/quanly" />
     <SUITE FILE_PATH="coverage/BTL$Home.coverage" NAME="Home Coverage Results" MODIFIED="1741092810991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view" />
     <SUITE FILE_PATH="coverage/BTL$ChiTietDonHang.coverage" NAME="ChiTietDonHang Coverage Results" MODIFIED="1741409900356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view" />
     <SUITE FILE_PATH="coverage/BTL$TrangChu.coverage" NAME="TrangChu Coverage Results" MODIFIED="1742200178294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view/chung" />

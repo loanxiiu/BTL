@@ -1,3 +1,4 @@
+import os
 import sqlite3
 
 from model.dao.SanPhamDAO import SanPhamDAO
@@ -79,8 +80,11 @@ class SanPhamController:
         import pandas as pd
         from sklearn.ensemble import RandomForestRegressor
 
+        # Xác định thư mục gốc của dự án
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Lấy thư mục chứa file đang chạy
+        DB_PATH = os.path.join(BASE_DIR, "..", "model", "dao", "connect", "ITSHOP.db")
         # Lấy dữ liệu lịch sử
-        with sqlite3.connect("../model/dao/connect/ITSHOP.db") as conn:
+        with sqlite3.connect(DB_PATH) as conn:
             df = pd.read_sql_query("SELECT SanPham.MaSPham, SanPham.TenSPham, SUM(ChiTietDonHang.SoLuong) AS TongBan, strftime('%Y-%m', DonHang.NgayBan) AS Thang FROM ChiTietDonHang JOIN SanPham ON ChiTietDonHang.MaSP = SanPham.MaSPham JOIN DonHang ON ChiTietDonHang.MaDH = DonHang.MaDH GROUP BY SanPham.MaSPham, SanPham.TenSPham, Thang", conn)
 
         # Chuẩn bị dữ liệu cho mô hình
